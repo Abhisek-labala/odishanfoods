@@ -325,8 +325,9 @@ span {
 }
 
 .navbar-light .navbar-toggler {
-    color: transparent;
+    color: white;
     border-color: transparent;
+
 }
 
 .navbar-toggler:focus {
@@ -344,6 +345,11 @@ span {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
+}
+.navbar-toggler-icon
+{
+    /* color: green; */
+    background-color: #fe5f59;
 }
 
 .navbar-nav .nav-item .nav-link.active,
@@ -453,6 +459,7 @@ span {
 
 .header-hero-content {
     position: relative;
+    margin-top: 35vh;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -1103,3 +1110,140 @@ span {
 .footer-copyright .copyright .copyright-text .text a {
     color: #747e88;
 }
+
+
+.privacy-area
+{
+    margin-top: 5rem;
+}
+
+  
+  .contact-area .section-title {
+    margin-bottom: 40px;
+  }
+  
+  .contact-area .section-title .title {
+   margin-top: 10vh;
+  }
+  
+  .contact-area .section-title .text {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  #contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form .form-control {
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  #contact-form .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  #contact-form .form-group textarea {
+    resize: vertical;
+  }
+  
+  #contact-form .main-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form .main-btn:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 767px) {
+    #contact-form {
+      padding: 20px;
+    }
+  
+    #contact-form .form-group {
+      margin-bottom: 15px;
+    }
+  
+    #contact-form .form-control {
+      height: 45px;
+      font-size: 14px;
+    }
+  
+    #contact-form .main-btn {
+      height: 45px;
+      font-size: 16px;
+    }
+  }
+  .earning-area {
+    /* background: #f9f9f9; */
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .earning-card {
+    margin-top: 15vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .earning-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .earning-card .card-body {
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .earning-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .earning-card .card-text {
+    font-size: 1rem;
+    color: #0898ef;
+  }
+  
+  .earning-card ol {
+    padding-left: 1.5rem;
+  }
+  
+  .earning-card ol li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Adding some hover effects to list items */
+  .earning-card ol li:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
