@@ -11,7 +11,10 @@ body {
     color: #fff;
     overflow-x: hidden;
 }
-
+.header-shape-9
+{
+    display: none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -433,7 +436,7 @@ span {
     left: 40%;
     top: 175px;
     border-radius: 50%;
-    background: #4ebaf5;
+    background: #dd2b2bd3;
     animation: animation-1 2s linear infinite;
 }
 
@@ -896,7 +899,7 @@ span {
     position: absolute;
     width: 300px;
     height: 300px;
-    background-color: #b3d7ff;
+    background-color: #fe5f59;
     border-radius: 50%;
     z-index: -1;
 }
@@ -1247,3 +1250,32 @@ span {
     color: #007bff;
     transition: color 0.3s ease;
   }
+  @media (max-width: 768px) {
+  .header-shape-2 img{
+    display: none;
+  } 
+  .header-shape-9{
+    display: block;
+  }
+  .header-hero .shape.shape-2 {
+    display: none;
+}
+}
+.product-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.image-box {
+  background: linear-gradient(135deg, #fe5f59, #d3a09e);
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
