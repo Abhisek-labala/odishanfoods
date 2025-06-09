@@ -1263,6 +1263,9 @@ span {
 }
 .product-image {
   width: 100%;
+  max-height:300px;
+  display: flex;
+  justify-content: space-between;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
